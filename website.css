@@ -2,7 +2,16 @@ a {
    color: #1e1e2e;
    text-decoration: none;
 }
-
+.header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: fit-content;
+   background-color: #ffffff;
+   padding: 10px;
+   z-index: 1000;
+}
 .text1 {
    text-align: center;
    font-family: Fantasy;
@@ -33,6 +42,8 @@ a {
 }
 
 .main {
+   position: relative;
+   top: 180px;
    display: flex;
    flex-direction: row;
    gap: 2px;

@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<title>today</title>
-	<link rel="stylesheet" href="website.css">
+    <title>Today</title>
+    <link rel="stylesheet" href="website.css">
 </head>
 
-<body>
-	<div class="text1">
-		<div></div>
-		<div>TODAY</div>
-		<div class="search">
-			<input type="text" placeholder="Search">
-		</div>
-	</div>
-	<div class="sections">
-		<button>INTERNATIONAL</button>
-		<button>NATIONAL</button>
-		<button>LOCAL</button>
-		<button>TECHNOLOGY</button>
-		<button>SPORTS</button>
-		<button>MOVIE</button>
-	</div>
+<body>  <!-- Moved everything inside <body> -->
+    <div class="header">
+        <div class="text1">
+            <div></div>
+            <div>TODAY</div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="sections">
+            <button>INTERNATIONAL</button>
+            <button>NATIONAL</button>
+            <button>LOCAL</button>
+            <button>TECHNOLOGY</button>
+            <button>SPORTS</button>
+            <button>MOVIE</button>
+            <button onclick="window.location.href='about.html'">About</button>
+        </div>
+    </div>
 
-	<div class="main">
-		<a href="trump.html">
-			<div class="trump">
-				Donald Trump Regains Power in Historic U.S. Election Comeback
-				<img src="trump.jpg">
-			</div>
-		</a>
+    <div class="main">
+        <a href="trump.html">
+            <div class="trump">
+                Donald Trump Regains Power in Historic U.S. Election Comeback
+                <img src="trump.jpg">
+            </div>
+        </a>
 
-		<div class="vl"></div>
+        <div class="vl"></div>
 
-		<div class="table">
-			<a href="folium.html">
-				<div class="newsbox" onclick="">
-					<img src="folium.jpg">
-					Folium CET to Qatar
-				</div>
-			</a>
-			<a href="openai.html">
-				<div class="newsbox">
-					<img src="openai.jpg">
-					OpenAI's Board Rejects Elon Musk's $97.4 Billion Takeover Bid
-				</div>
-			</a>
-			<a href="icc.html">
-				<div class="newsbox">
-					<img src="icc.jpg">
-					Champions league is set to begin
-				</div>
-			</a>
-		</div>
-	</div>
+        <div class="table">
+            <a href="folium.html">
+                <div class="newsbox">
+                    <img src="folium.jpg">
+                    Folium CET to Qatar
+                </div>
+            </a>
+            <a href="openai.html">
+                <div class="newsbox">
+                    <img src="openai.jpg">
+                    OpenAI's Board Rejects Elon Musk's $97.4 Billion Takeover Bid
+                </div>
+            </a>
+            <a href="icc.html">
+                <div class="newsbox">
+                    <img src="icc.jpg">
+                    Champions league is set to begin
+                </div>
+            </a>
+        </div>
+    </div>
 
-
+    <!-- Create an element to display the date -->
+   
 </body>
-
 </html>
